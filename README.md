@@ -1,6 +1,6 @@
 # 🐍 Python PowerHub: All-in-One CLI Toolkit
 
-![Python PowerHub Banner]([https://via.placeholder.com/800x200/2D3748/FFFFFF?text=Python+PowerHub+-+Multi-Tool+CLI+Application](https://evanxplore.site/uploads/pp.png))
+![Python PowerHub Banner](https://evanxplore.site/uploads/pp.png)
 
 ## 📋 Overview
 
@@ -27,8 +27,8 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/brainstationcyberhub-coder/pythonpowerhub
-cd python-powerhub
+git clone https://github.com/brainstationcyberhub-coder/pythonpowerhub.git
+cd pythonpowerhub
 ```
 
 2. **Install required dependencies**
@@ -45,9 +45,9 @@ python main.py
 
 Create a `requirements.txt` file with:
 ```
-requests
-qrcode
-Pillow
+requests>=2.28.0
+qrcode[pil]>=7.4.2
+Pillow>=9.0.0
 ```
 
 ## 🎯 Tool Details
@@ -94,8 +94,7 @@ python-powerhub/
 ├── webhosting.py        # File hosting module
 ├── qrgen.py             # QR generator module
 ├── requirements.txt     # Python dependencies
-├── README.md           # This file
-└── LICENSE             # MIT License (recommended)
+└── README.md           # This file
 ```
 
 ## 🖥️ Usage Examples
@@ -141,26 +140,6 @@ python main.py
 - Comprehensive input sanitization
 - ASCII art banners for visual appeal
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Maintain consistent ASCII art style
-- Add input validation for new features
-- Include clear exit options in all tools
-- Test thoroughly before submitting PRs
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` file for more information.
-
 ## 🐛 Known Issues & Future Enhancements
 
 ### Current Limitations
@@ -169,37 +148,15 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 - Chatbot dependent on external API availability
 
 ### Planned Features
-- [ ] Add more barcodes to halal database
-- [ ] Local caching for chatbot responses
-- [ ] Image preview for QR codes
-- [ ] Configuration file for API endpoints
-- [ ] Docker containerization
-- [ ] GUI version using Tkinter/PyQt
+- Add more barcodes to halal database
+- Local caching for chatbot responses
+- GUI version
 
 ## 🙏 Acknowledgments
 
 - **Mistral AI** for chatbot capabilities
 - **evanxplore.site** for file hosting API
 - **QR Code Python Library** for QR generation
-- **All contributors** helping improve this toolkit
-
-## 📞 Support
-
-For questions, suggestions, or issues:
-1. Check existing [Issues](https://github.com/yourusername/python-powerhub/issues)
-2. Create a new issue with detailed description
-3. Include Python version and error logs if applicable
-
----
-
-<div align="center">
-  <p><strong>Python PowerHub</strong> - One toolkit to rule them all! 🐍✨</p>
-  
-  ![Stars](https://img.shields.io/github/stars/yourusername/python-powerhub?style=social)
-  ![Forks](https://img.shields.io/github/forks/yourusername/python-powerhub?style=social)
-  ![License](https://img.shields.io/github/license/yourusername/python-powerhub)
-  ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-</div>
 
 ---
 
