@@ -41,15 +41,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📦 Dependencies
-
-Create a `requirements.txt` file with:
-```
-requests>=2.28.0
-qrcode[pil]>=7.4.2
-Pillow>=9.0.0
-```
-
 ## 🎯 Tool Details
 
 ### 🤖 **CLI Chatbot**
