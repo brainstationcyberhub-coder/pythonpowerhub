@@ -27,7 +27,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/python-powerhub.git
+git clone https://github.com/brainstationcyberhub-coder/pythonpowerhub
 cd python-powerhub
 ```
 
@@ -45,9 +45,9 @@ python main.py
 
 Create a `requirements.txt` file with:
 ```
-requests>=2.28.0
-qrcode[pil]>=7.4.2
-Pillow>=9.0.0
+requests
+qrcode
+Pillow
 ```
 
 ## 🎯 Tool Details
